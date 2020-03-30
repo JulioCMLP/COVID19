@@ -50,15 +50,15 @@ am4core.ready(function () {
 
     getData().then(stats => {
         divConfirmed.innerHTML = `
-            Total de cas
+            Total cases
             <h2>${stats.confirmed.value}</h2>
         `
         divDeaths.innerHTML = `
-            Total de morts
+            Total deaths
             <h2>${stats.deaths.value}</h2>
         `
         divRecovered.innerHTML = `
-            Total de guéris
+            Total healed
             <h2>${stats.recovered.value}</h2>
         `
         date.innerHTML = `
