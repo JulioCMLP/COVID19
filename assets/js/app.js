@@ -62,7 +62,7 @@ am4core.ready(function () {
             <h2>${stats.recovered.value}</h2>
         `
         date.innerHTML = `
-            Données mise à jour : ${moment(stats.lastUpdate).calendar()}
+            Data updated : ${moment(stats.lastUpdate).calendar()}
         `
     });
 
